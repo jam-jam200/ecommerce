@@ -4,6 +4,8 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "../config.env" });
 const AppError = require("./utils/appError");
 const app = express();
+// const bootstrap = require("bootstrap");
+// const bootstrap = require("bootstrap")
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -19,5 +21,5 @@ app.use("/", homeRoute);
 const port = 3000;
 
 const server = app.listen(port, () => {
-  "server is running on `${port}`";
+  console.log("server is running on localhost " + port);
 });
