@@ -1,13 +1,20 @@
+body {
+  /* background-color: pink; */
+}
 .nav-title {
   color: #15133c;
 }
 .navbar {
   background-color: #a1c9ff !important;
+  font-family: "sora", sans-serif;
+  border-bottom: 1px solid #ebf5ff;
 }
 
 .nav-subheading {
   font-size: 20px;
+  margin-left: 100px;
 }
 
 .main-nav {
+  margin-right: 400px;
 }
