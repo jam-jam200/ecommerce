@@ -11,7 +11,7 @@ router.get("/product", (req, res, next) => {
     title: "Products",
   });
 });
-router.get("/contactus", (req, res, next) => {
+router.get("/contact-us", (req, res, next) => {
   res.render("contact.ejs", {
     title: "Contact Us",
   });
