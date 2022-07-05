@@ -5,7 +5,7 @@ body {
   color: #15133c;
 }
 .navbar {
-  background-color: #a1c9ff !important;
+  background-color: #C4DDFF !important;
   font-family: "sora", sans-serif;
   border-bottom: 1px solid #ebf5ff;
 }
@@ -340,12 +340,13 @@ body, button, input {
   margin-bottom: 10px;
 }
 
-.app-form-group.message {
+.app-form-group .message {
   margin-top: 30px;
   color: #2F3093;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
   transition: border-color .2s;
+  font-weight: 400 !important;
 }
 
 .app-form-group.buttons {
