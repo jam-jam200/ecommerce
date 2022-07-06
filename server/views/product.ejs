@@ -3,37 +3,61 @@
   <head>
     <%- include('./includes/head.ejs') %>
   </head>
-  <body style="background-color: #ffffff">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap"
+    rel="stylesheet"
+  />
+  <body style="background-color: #fff;">
     <%- include('./includes/navbar.ejs') %>
-    <h2 class="text-center mt-4">Our Products</h2>
-    <div class="my-container">
-      <img class="container__image" src="/images/palmkernel.png" />
-      <div class="container__text">
-        <h5>PENIEL JOSEPH & SONS LIMITED</h5>
-        <h3>Palm Kernel Cake</h3>
+   <em>
+     <h2 class="text-center mt-4 title">The Products We Offer</h2>
+   </em>
+    <section class="prod-div">
+      <div class="my-container">
+        <img class="container__image" src="/images/palmkernel.png" />
+        <div class="container__text">
+          <h5 class="subtitle">PENIEL JOSEPH & SONS LIMITED</h5>
+          <h3 class="item-info">Palm Kernel Cake</h3>
+          <h5>&#8358 --.--</h5>
+          <button class="button-kernel" role="button" onclick="prodClick()">
+            <span class="text"> Place an Order</span>
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="my-container">
-      <img class="container__image" src="/images/palmkerneloil.png" />
-      <div class="container__text">
-        <h5>PENIEL JOSEPH & SONS LIMITED</h5>
-        <h3>Palm Kernel Cake</h3>
+      <div class="my-container">
+        <img class="container__image" src="/images/palmkerneloil.png" />
+        <div class="container__text">
+          <h5 class="subtitle">PENIEL JOSEPH & SONS LIMITED</h5>
+          <h3 class="item-info">Palm Kernel Oil</h3>
+          <h5>&#8358 --.--</h5>
+          <button class="button-kernel" role="button" onclick="prodClick()">
+            <span class="text"> Place an Order</span>
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="my-container">
-      <img class="container__image" src="/images/sludge.png" />
-      <div class="container__text">
-        <h5>PENIEL JOSEPH & SONS LIMITED</h5>
-        <h3>Palm Kernel Cake</h3>
+      <div class="my-container">
+        <img class="container__image" src="/images/sludge.png" />
+        <div class="container__text">
+          <h5 class="subtitle">PENIEL JOSEPH & SONS LIMITED</h5>
+          <h3 class="item-info">Sludge</h3>
+          <h5>&#8358 --.--</h5>
+          <button class="button-kernel" role="button" onclick="prodClick()">
+            <span class="text"> Place an Order</span>
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="my-container">
-      <img class="container__image" src="/images/wetcake.png" />
-      <div class="container__text">
-        <h5>PENIEL JOSEPH & SONS LIMITED</h5>
-        <h3>Palm Kernel Cake</h3>
+      <div class="my-container">
+        <img class="container__image" src="/images/wetcake.png" />
+        <div class="container__text">
+          <h5 class="subtitle">PENIEL JOSEPH & SONS LIMITED</h5>
+          <h3 class="item-info">Wet Cake</h3>
+          <h5 class="naira">&#8358 --.--</h5>
+          <button class="button-kernel" role="button" onclick="prodClick()">
+            <span class="text"> Place an Order</span>
+          </button>
+        </div>
       </div>
-    </div>
+    </section>
     <footer class="footer">
       <h4 class="mb-3" style="font-size: 25px; font-weight: 700">
         Contact Us:
@@ -81,4 +105,14 @@
       </em>
     </footer>
   </body>
+  <script>
+    window.onload = function () {
+      var prod = document.getElementById("prodInfo");
+      prod.onclick = prodClick;
+    };
+
+    function prodClick() {
+      location.href = "/contact-us";
+    }
+  </script>
 </html>

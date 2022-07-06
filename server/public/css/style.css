@@ -96,10 +96,11 @@ body {
 }
 
 .footer {
+  /* border-top: 1px solid #ffffff; */
   padding: 20px !important;
   /* padding-bottom: 0px !important; */
   background-color: #c4ddff;
-  margin-top: 10px !important;
+  margin-top: 30px !important;
   color: #001d6e;
 }
 
@@ -373,10 +374,6 @@ img {
 .card a {
   color: black;
   text-decoration: none;
-}
-
-.card-content {
-  /* padding: 1.4em; */
 }
 
 .card-content h2 {
@@ -718,7 +715,9 @@ img {
 }
 
 .my-container {
+  background-color: #ffffff;
   margin: 30px 50px 20px 180px;
+  border: 2px solid #92b4ec;
   /* justify-content: center; */
   padding: 20px 40px 40px;
   max-width: 950px;
@@ -726,16 +725,38 @@ img {
   display: flex;
 }
 .container__image {
-  background-color: #92B4EC;
+  background-color: #92b4ec;
   border-radius: 10px;
   margin: 20px 100px 0 0;
   width: 500px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   /* align-self: flex-start; */
 }
 .container__text {
-  margin-top: 180px;
+  margin-top: 150px;
   flex: 1 1 auto;
   text-align: center;
+}
+
+.title {
+  color: #001d6e;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: #001d6e;
+}
+
+.item-info {
+  font-size: 25px;
+  font-weight: 600;
+  color: #001d6e;
+}
+
+.naira {
+  color: #001d6e !important;
 }

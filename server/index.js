@@ -4,15 +4,13 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "../config.env" });
 const AppError = require("./utils/appError");
 const app = express();
-// const bootstrap = require("bootstrap");
-// const bootstrap = require("bootstrap")
+require('dotenv').config();
+const nodemailer = require('nodemailer');
+
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use("/", express.static(path.join(__dirname, "/public")));
-// app.all("*", (req, res, next) => {
-//   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
-// });
 app.use(express.urlencoded({ extended: true }));
 
 const homeRoute = require("./routes/app.routes");
