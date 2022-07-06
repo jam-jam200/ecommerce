@@ -13,7 +13,10 @@
           Shop our variety of palm products, <br />
           today!!!
         </p>
-        <a href="/product" class="button1 bouncy">shop products</a>
+        <button class="button-64" id="product" role="button" onclick="productClick()">
+          <span class="text">Shop Product</span>
+        </button>
+        <!-- <a href="/product" class="button1 bouncy">shop products</a> -->
       </div>
       <div>
         <svg
@@ -130,7 +133,7 @@
   </body>
   <section class="second-section container-fluid">
     <div class="contain">
-      <h4>Products</h4>
+      <h4 style="font-weight: 600; color: #001d6e;">Products</h4>
       <div class="underline"></div>
     </div>
     <main class="main-area">
@@ -139,12 +142,9 @@
           <article class="card">
             <a href="/product">
               <picture class="thumbnail">
-                <img src="/images/palmkernel.png" alt="palmkernel" />
+                <img src="/images/palmkernel.png" alt="palm kernel cake" />
               </picture>
-              <div class="card-content">
-                <h5>Palm Kernel Cake</h5>
-                <p></p>
-              </div>
+              <div class="card-content"></div>
             </a>
           </article>
           <article class="card">
@@ -152,10 +152,6 @@
               <picture class="thumbnail">
                 <img src="/images/palmkerneloil.png" alt="palmkernel oil" />
               </picture>
-              <div class="card-content">
-                <h5>Palm Kernel Oil</h5>
-                <p></p>
-              </div>
             </a>
           </article>
           <article class="card">
@@ -163,10 +159,6 @@
               <picture class="thumbnail">
                 <img src="/images/sludge.png" alt="sludge" />
               </picture>
-              <div class="card-content">
-                <h5>Sludge</h5>
-                <p></p>
-              </div>
             </a>
           </article>
           <article class="card">
@@ -174,15 +166,35 @@
               <picture class="thumbnail">
                 <img src="/images/wetcake.png" alt="Wet Cake" />
               </picture>
-              <div class="card-content">
-                <h5>Wet Cake</h5>
-                <p></p>
-              </div>
             </a>
           </article>
         </section>
       </div>
     </main>
+    <div class="product-info" id="product">
+      <p>Palm Kernel Cake</p>
+      <button class="button-kernel" role="button" onclick="productClick()">
+        <span class="text"> Place an Order</span>
+      </button>
+    </div>
+    <div class="product-info2" id="product">
+      <p>Palm Kernel Oil</p>
+      <button class="button-oil" role="button" onclick="productClick()">
+        <span class="text"> Place an Order</span>
+      </button>
+    </div>
+    <div class="product-info3" id="product">
+      <p>Sludge</p>
+      <button class="button-s" role="button" onclick="productClick()">
+        <span class="text"> Place an Order</span>
+      </button>
+    </div>
+    <div class="product-info4" id="product">
+      <p>Wet Cake</p>
+      <button class="button-w" role="button" onclick="productClick()">
+        <span class="text"> Place an Order</span>
+      </button>
+    </div>
   </section>
 
   <footer class="footer">
@@ -229,4 +241,15 @@
       </p>
     </em>
   </footer>
+
+  <script>
+    window.onload = function () {
+      var prod = document.getElementById("product");
+      prod.onclick = productClick;
+    };
+
+    function productClick() {
+      location.href = "/product";
+    }
+  </script>
 </html>
