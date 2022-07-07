@@ -962,47 +962,43 @@ form button {
   }
 }
 
-@media (min-width: 950px) and (max-width: 1024px) {
+@media (min-width: 912px) and (max-width: 949px) {
   .main-nav {
     margin-right: 70px;
   }
 
   .nav-item {
-    /* background-color: #001d6e94; */
+    background-color: #001d6e94;
   }
 
   .first-section > div > p {
-    font-size: 20px !important;
+    font-size: 33px !important;
+    font-weight: 600;
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 30px;
   }
 
+  .button-64 {
+    height: 65px;
+    position: relative !important;
+    top: 270px !important;
+    left: 16px !important;
+    font-size: 27px;
+    min-width: 196px;
+  }
+
   .home-pic {
-    position: relative;
-    left: 500px;
-    bottom: 10px;
-  }
-
-  .contain {
-    text-align: center;
-    padding-bottom: 30px !important;
-  }
-
-  .second-section > h4 {
-    color: #001d6e;
-    font-weight: 700;
+    display: none;
   }
 
   .underline {
-    width: 40px;
-    height: 7px;
-    margin-left: 475px;
+    margin-left: 425px;
   }
 
   .product-info {
     height: 190px;
-    width: 240px;
+    width: 213px;
     position: relative;
     bottom: 198px;
   }
@@ -1015,9 +1011,9 @@ form button {
 
   .product-info2 {
     height: 190px;
-    width: 240px;
+    width: 213px;
     position: relative;
-    left: 252px;
+    left: 225px;
     bottom: 385px;
   }
 
@@ -1029,9 +1025,9 @@ form button {
 
   .product-info3 {
     height: 190px;
-    width: 240px;
+    width: 213px;
     position: relative;
-    left: 510px;
+    left: 450px;
     bottom: 570px;
   }
 
@@ -1043,9 +1039,9 @@ form button {
 
   .product-info4 {
     height: 190px;
-    width: 240px;
+    width: 213px;
     position: relative;
-    left: 760px;
+    left: 675px;
     bottom: 759px;
   }
 
@@ -1060,8 +1056,14 @@ form button {
     padding: 20px 30px 40px;
   }
 
+  .container__image {
+    margin: 20px 70px 0 0;
+    width: 270px;
+    /* align-self: flex-start; */
+  }
+
   .container__text {
-    margin-top: 150px;
+    margin-top: 130px;
   }
 
   .title {
@@ -1079,7 +1081,16 @@ form button {
   }
 
   .palm-button {
-    margin-left: 20px !important;
+    margin-left: 75px !important;
+  }
+  .cake-button {
+    margin-left: 75px !important;
+  }
+  .sludge-button {
+    margin-left: 75px !important;
+  }
+  .wet-button {
+    margin-left: 75px !important;
   }
 
   input {
@@ -1163,7 +1174,7 @@ form button {
     position: relative;
     bottom: 168px;
   }
-  
+
   .product-info p {
     font-size: 20px !important;
   }
@@ -1342,7 +1353,7 @@ form button {
     position: relative;
     bottom: 168px;
   }
-  
+
   .product-info p {
     font-size: 20px !important;
   }
@@ -1530,7 +1541,7 @@ form button {
     position: relative;
     bottom: 155px;
   }
-  
+
   .product-info p {
     font-size: 18px !important;
   }
@@ -1709,7 +1720,7 @@ form button {
     position: relative;
     bottom: 140px;
   }
-  
+
   .product-info p {
     font-size: 15px !important;
   }
@@ -1897,7 +1908,7 @@ form button {
     position: relative;
     bottom: 140px;
   }
-  
+
   .product-info p {
     font-size: 15px !important;
   }
@@ -1909,7 +1920,6 @@ form button {
     top: -8px !important;
     left: -2px !important;
   }
-
 
   .product-info2 {
     height: 120px;
@@ -2094,7 +2104,7 @@ form button {
     position: relative;
     bottom: 140px;
   }
-  
+
   .product-info p {
     font-size: 15px !important;
   }
@@ -2106,7 +2116,6 @@ form button {
     top: -8px !important;
     left: -2px !important;
   }
-
 
   .product-info2 {
     height: 120px;
