@@ -442,13 +442,6 @@ img {
   background: #a6c2ea;
 }
 
-@media (min-width: 768px) {
-  .button-64 {
-    font-size: 18px;
-    min-width: 196px;
-  }
-}
-
 .product-info {
   height: 208px;
   width: 318px;
@@ -900,7 +893,7 @@ form button {
     margin: 30px 50px 20px 90px;
     padding: 20px 30px 40px;
   }
-  
+
   .container__text {
     margin-top: 150px;
   }
@@ -927,42 +920,398 @@ form button {
     font-weight: 700;
     letter-spacing: 1.4px;
   }
-  
+
   .container {
     flex: 0 1 700px;
     margin: auto;
     padding: 10px;
   }
-  
+
   .screen {
     margin-bottom: 230px;
   }
-  
+
   .screen-body-item {
     flex: 1;
     padding: 50px;
   }
-  
+
   .app-title {
     font-size: 30px;
   }
-  
+
   .app-contact {
     font-size: 14px;
   }
-  
+
   .app-form-group.buttons {
     margin-bottom: 0;
     text-align: right;
   }
-  
+
   .app-form-control {
     font-size: 20px;
   }
-  
+
   .app-form-button {
     font-size: 20px;
   }
+}
+
+@media (min-width: 740px) and (max-width: 899px) {
+  .main-nav {
+    margin-right: 0px;
+  }
+
+  .nav-item {
+    background-color: #001d6e94;
+  }
+
+  .first-section > div > p {
+    font-size: 35px !important;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+  }
+
+  .home-pic {
+    display: none;
+  }
+
+  .button-64 {
+    height: 65px;
+    position: relative !important;
+    top: 270px !important;
+    left: 16px !important;
+    font-size: 30px;
+    min-width: 196px;
+  }
+
+  .underline {
+    margin-left: 355px;
+  }
+
+  .product-info {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    bottom: 168px;
+  }
   
+  .product-info p {
+    font-size: 20px !important;
+  }
+
+  .button-kernel {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .product-info2 {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    left: 185px;
+    bottom: 315px;
+  }
+
+  .product-info2 p {
+    font-size: 20px !important;
+  }
+
+  .button-oil {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .product-info3 {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    left: 375px;
+    bottom: 465px;
+  }
+
+  .product-info3 p {
+    font-size: 20px !important;
+  }
+
+  .button-s {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .product-info4 {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    left: 560px;
+    bottom: 615px;
+  }
+
+  .product-info4 p {
+    font-size: 20px !important;
+  }
+
+  .button-w {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .my-container {
+    margin: 30px 50px 20px 90px;
+    padding: 20px 30px 40px;
+  }
+
+  .container__image {
+    margin: 20px 70px 0 0;
+    width: 300px;
+    /* align-self: flex-start; */
+  }
+
+  .container__text {
+    margin-top: 120px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .item-info {
+    font-size: 25px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .palm-button {
+    margin-left: 20px !important;
+  }
+
+  input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .screen {
+    margin-bottom: 230px;
+  }
+
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+
+  .app-title {
+    font-size: 30px;
+  }
+
+  .app-contact {
+    font-size: 14px;
+  }
+
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .app-form-control {
+    font-size: 20px;
+  }
+
+  .app-form-button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 739px) {
+  .main-nav {
+    margin-right: 0px;
+  }
+
+  .nav-item {
+    background-color: #001d6e94;
+  }
+
+  .first-section > div > p {
+    font-size: 35px !important;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+  }
+
+  .home-pic {
+    display: none;
+  }
+
+  .button-64 {
+    height: 65px;
+    position: relative !important;
+    top: 270px !important;
+    left: 16px !important;
+    font-size: 30px;
+    min-width: 196px;
+  }
+
+  .underline {
+    margin-left: 328px;
+  }
+
+  .product-info {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    bottom: 168px;
+  }
   
+  .product-info p {
+    font-size: 20px !important;
+  }
+
+  .button-kernel {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .product-info2 {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    left: 185px;
+    bottom: 315px;
+  }
+
+  .product-info2 p {
+    font-size: 20px !important;
+  }
+
+  .button-oil {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .product-info3 {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    left: 375px;
+    bottom: 465px;
+  }
+
+  .product-info3 p {
+    font-size: 20px !important;
+  }
+
+  .button-s {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .product-info4 {
+    height: 150px;
+    width: 185px;
+    position: relative;
+    left: 560px;
+    bottom: 615px;
+  }
+
+  .product-info4 p {
+    font-size: 20px !important;
+  }
+
+  .button-w {
+    position: relative !important;
+    top: -5px !important;
+    left: 10px !important;
+  }
+
+  .my-container {
+    margin: 30px 50px 20px 90px;
+    padding: 20px 30px 40px;
+  }
+
+  .container__image {
+    margin: 20px 70px 0 0;
+    width: 300px;
+    /* align-self: flex-start; */
+  }
+
+  .container__text {
+    margin-top: 120px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .item-info {
+    font-size: 25px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .palm-button {
+    margin-left: 20px !important;
+  }
+
+  input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .screen {
+    margin-bottom: 230px;
+  }
+
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+
+  .app-title {
+    font-size: 30px;
+  }
+
+  .app-contact {
+    font-size: 14px;
+  }
+
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .app-form-control {
+    font-size: 20px;
+  }
+
+  .app-form-button {
+    font-size: 20px;
+  }
 }
