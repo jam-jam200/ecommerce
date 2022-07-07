@@ -807,3 +807,30 @@ form button {
   margin: 20px auto 0;
   border-radius: 30px;
 }
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .nav-title {
+    color: #15133c;
+    font-size: 9px;
+    width: 12px;
+  }
+  .navbar {
+    background-color: #c4ddff !important;
+    font-family: "sora", sans-serif;
+    border-bottom: 1px solid #ebf5ff;
+  }
+  
+  .nav-subheading {
+    font-size: 9px;
+    margin-left: 50px;
+    font-weight: 400 !important;
+  }
+
+  .product {
+    margin-left: 40px;
+  }
+  
+  .main-nav {
+    margin-right: 135px;
+  }
+}

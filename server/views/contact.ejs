@@ -5,7 +5,7 @@
   </head>
   <body>
     <%- include('./includes/navbar.ejs') %>
-    <!-- <div class="background"> 
+   <div class="background">
       <div class="container">
         <div class="screen" >
           <div class="screen-header">
@@ -62,7 +62,7 @@
       </div>
     </div> -->
     <!-- sendEmail(); reset(); return false;" -->
-    <div class="mycontain">
+    <!-- <div class="mycontain">
       <form class="contact-form">
         <h3>CONTACT US</h3>
         <input
@@ -86,13 +86,13 @@
           placeholder="phone number"
           required
         />
-        <input
+        <!-- <input
           type="text"
           name="subject"
           id="subject"
           placeholder="Subject"
           required
-        />
+        /> -->
         <textarea
           name="message"
           id="message"
@@ -101,14 +101,14 @@
         ></textarea>
         <button type="submit">Send</button>
       </form>
-    </div>
+    </div> -->
 
-    <script>
+    <!-- <script>
       const contactform = document.querySelector(".contact-form");
       let name = document.getElementById("name");
       let email = document.getElementById("email");
       let phone = document.getElementById("phone");
-      let subject = document.getElementById("subject");
+      // let subject = document.getElementById("subject");
       let message = document.getElementById("message");
 
       contactform.addEventListener("submit", (e) => {
@@ -119,7 +119,7 @@
           name: name.value,
           email: email.value,
           phone: phone.value,
-          subject: subject.value,
+          // subject: subject.value,
           message: message.value,
         };
 
@@ -134,7 +134,7 @@
             name.value = "";
             email.value = "";
             phone.value = "";
-            subject.value = "";
+            // subject.value = "";
             message.value = "";
           } else {
             alert("something went wrong");
@@ -142,7 +142,7 @@
         };
         xhr.send(JSON.stringify(formData));
       });
-    </script>
+    </script> -->
 
     <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
