@@ -1171,28 +1171,28 @@ form button {
   }
 
   .product-info {
-    height: 150px;
-    width: 185px;
+    height: 130px;
+    width: 165px;
     position: relative;
-    bottom: 168px;
+    bottom: 155px;
   }
   
   .product-info p {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
   .button-kernel {
     position: relative !important;
     top: -5px !important;
-    left: 10px !important;
+    left: 3px !important;
   }
 
   .product-info2 {
-    height: 150px;
-    width: 185px;
+    height: 130px;
+    width: 165px;
     position: relative;
-    left: 185px;
-    bottom: 315px;
+    left: 175px;
+    bottom: 285px;
   }
 
   .product-info2 p {
@@ -1202,15 +1202,15 @@ form button {
   .button-oil {
     position: relative !important;
     top: -5px !important;
-    left: 10px !important;
+    left: 3px !important;
   }
 
   .product-info3 {
-    height: 150px;
-    width: 185px;
+    height: 130px;
+    width: 165px;
     position: relative;
-    left: 375px;
-    bottom: 465px;
+    left: 349px;
+    bottom: 415px;
   }
 
   .product-info3 p {
@@ -1220,15 +1220,15 @@ form button {
   .button-s {
     position: relative !important;
     top: -5px !important;
-    left: 10px !important;
+    left: 3px !important;
   }
 
   .product-info4 {
-    height: 150px;
-    width: 185px;
+    height: 130px;
+    width: 165px;
     position: relative;
-    left: 560px;
-    bottom: 615px;
+    left: 523px;
+    bottom: 545px;
   }
 
   .product-info4 p {
@@ -1238,7 +1238,7 @@ form button {
   .button-w {
     position: relative !important;
     top: -5px !important;
-    left: 10px !important;
+    left: 3px !important;
   }
 
   .my-container {
@@ -1247,7 +1247,7 @@ form button {
   }
 
   .container__image {
-    margin: 20px 70px 0 0;
+    margin: 20px 20px 0 0;
     width: 300px;
     /* align-self: flex-start; */
   }
