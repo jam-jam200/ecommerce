@@ -1722,12 +1722,12 @@ form button {
   }
 
   .underline {
-    margin-left: 289px;
+    margin-left: 269px;
   }
 
   .product-info {
     height: 120px;
-    width: 150px;
+    width: 139px;
     position: relative;
     bottom: 140px;
   }
@@ -1737,16 +1737,19 @@ form button {
   }
 
   .button-kernel {
+    font-size: 13px;
+    font-weight: 600;
     position: relative !important;
     top: -8px !important;
     left: -2px !important;
   }
 
+
   .product-info2 {
     height: 120px;
-    width: 150px;
+    width: 139px;
     position: relative;
-    left: 155px;
+    left: 146px;
     bottom: 260px;
   }
 
@@ -1758,13 +1761,15 @@ form button {
     position: relative !important;
     top: -8px !important;
     left: -2px !important;
+    font-size: 13px;
+    font-weight: 600;
   }
 
   .product-info3 {
     height: 120px;
-    width: 150px;
+    width: 139px;
     position: relative;
-    left: 313px;
+    left: 292px;
     bottom: 383px;
   }
 
@@ -1776,13 +1781,15 @@ form button {
     position: relative !important;
     top: -8px !important;
     left: -2px !important;
+    font-size: 13px;
+    font-weight: 600;
   }
 
   .product-info4 {
     height: 120px;
-    width: 150px;
+    width: 139px;
     position: relative;
-    left: 468px;
+    left: 438px;
     bottom: 502px;
   }
 
@@ -1794,6 +1801,8 @@ form button {
     position: relative !important;
     top: -8px !important;
     left: -2px !important;
+    font-size: 13px;
+    font-weight: 600;
   }
 
   .my-container {
@@ -1803,12 +1812,12 @@ form button {
 
   .container__image {
     margin: 20px 20px 0 0;
-    width: 250px;
+    width: 200px;
     /* align-self: flex-start; */
   }
 
   .container__text {
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   .title {
@@ -1859,7 +1868,7 @@ form button {
   }
 
   .app-title {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .app-contact {
@@ -1872,10 +1881,207 @@ form button {
   }
 
   .app-form-control {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .app-form-button {
-    font-size: 20px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 610px) {
+  .main-nav {
+    margin-right: 0px;
+  }
+
+  .nav-item {
+    background-color: #001d6e94;
+  }
+
+  .first-section > div > p {
+    font-size: 30px !important;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+  }
+
+  .home-pic {
+    display: none;
+  }
+
+  .button-64 {
+    height: 64px;
+    position: relative !important;
+    top: 270px !important;
+    left: 16px !important;
+    font-size: 28px;
+    min-width: 196px;
+  }
+
+  .underline {
+    margin-left: 269px;
+  }
+
+  .product-info {
+    height: 120px;
+    width: 139px;
+    position: relative;
+    bottom: 140px;
+  }
+  
+  .product-info p {
+    font-size: 15px !important;
+  }
+
+  .button-kernel {
+    font-size: 13px;
+    font-weight: 600;
+    position: relative !important;
+    top: -8px !important;
+    left: -2px !important;
+  }
+
+
+  .product-info2 {
+    height: 120px;
+    width: 139px;
+    position: relative;
+    left: 146px;
+    bottom: 260px;
+  }
+
+  .product-info2 p {
+    font-size: 15px !important;
+  }
+
+  .button-oil {
+    position: relative !important;
+    top: -8px !important;
+    left: -2px !important;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .product-info3 {
+    height: 120px;
+    width: 139px;
+    position: relative;
+    left: 292px;
+    bottom: 383px;
+  }
+
+  .product-info3 p {
+    font-size: 15px !important;
+  }
+
+  .button-s {
+    position: relative !important;
+    top: -8px !important;
+    left: -2px !important;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .product-info4 {
+    height: 120px;
+    width: 139px;
+    position: relative;
+    left: 438px;
+    bottom: 502px;
+  }
+
+  .product-info4 p {
+    font-size: 15px !important;
+  }
+
+  .button-w {
+    position: relative !important;
+    top: -8px !important;
+    left: -2px !important;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .my-container {
+    margin: 30px 50px 20px 90px;
+    padding: 20px 30px 40px;
+  }
+
+  .container__image {
+    margin: 20px 20px 0 0;
+    width: 200px;
+    /* align-self: flex-start; */
+  }
+
+  .container__text {
+    margin-top: 80px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .item-info {
+    font-size: 25px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .palm-button {
+    margin-left: 20px !important;
+  }
+  .cake-button {
+    margin-left: 20px !important;
+  }
+  .sludge-button {
+    margin-left: 20px !important;
+  }
+  .wet-button {
+    margin-left: 20px !important;
+  }
+
+  input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .screen {
+    margin-bottom: 230px;
+  }
+
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+
+  .app-title {
+    font-size: 25px;
+  }
+
+  .app-contact {
+    font-size: 14px;
+  }
+
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .app-form-control {
+    font-size: 15px;
+  }
+
+  .app-form-button {
+    font-size: 15px;
   }
 }
