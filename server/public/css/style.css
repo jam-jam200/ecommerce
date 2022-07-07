@@ -786,7 +786,8 @@ form h3 {
   margin-bottom: 20px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   border: 0;
   margin: 10px 0;
   padding: 20px;
@@ -812,20 +813,135 @@ form button {
   .main-nav {
     margin-right: 70px;
   }
-  
+
   .first-section > div > p {
     font-size: 20px !important;
     position: absolute;
     top: 180px;
     left: 30px;
   }
-  
+
   .home-pic {
-    /* float: right; */
     position: relative;
     left: 500px;
     bottom: 10px;
   }
-  
- 
+
+  .contain {
+    text-align: center;
+    padding-bottom: 30px !important;
+  }
+
+  .second-section > h4 {
+    color: #001d6e;
+    font-weight: 700;
+  }
+
+  .underline {
+    width: 40px;
+    height: 7px;
+    margin-left: 475px;
+  }
+
+  .product-info {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    bottom: 198px;
+  }
+
+  .button-kernel {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .product-info2 {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    left: 252px;
+    bottom: 385px;
+  }
+
+  .button-oil {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .product-info3 {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    left: 510px;
+    bottom: 570px;
+  }
+
+  .button-s {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .product-info4 {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    left: 760px;
+    bottom: 759px;
+  }
+
+  .button-w {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .my-container {
+    background-color: #ffffff;
+    margin: 30px 50px 20px 180px;
+    border: 2px solid #92b4ec;
+    /* justify-content: center; */
+    padding: 20px 40px 40px;
+    max-width: 950px;
+    max-height: 500px;
+    display: flex;
+  }
+  .container__image {
+    background-color: #92b4ec;
+    border-radius: 10px;
+    margin: 20px 100px 0 0;
+    width: 500px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    /* align-self: flex-start; */
+  }
+  .container__text {
+    margin-top: 150px;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .title {
+    color: #001d6e;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .item-info {
+    font-size: 25px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .naira {
+    color: #001d6e !important;
+  }
 }
