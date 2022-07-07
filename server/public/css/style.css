@@ -809,28 +809,23 @@ form button {
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
-  .nav-title {
-    color: #15133c;
-    font-size: 9px;
-    width: 12px;
-  }
-  .navbar {
-    background-color: #c4ddff !important;
-    font-family: "sora", sans-serif;
-    border-bottom: 1px solid #ebf5ff;
-  }
-  
-  .nav-subheading {
-    font-size: 9px;
-    margin-left: 50px;
-    font-weight: 400 !important;
-  }
-
-  .product {
-    margin-left: 40px;
-  }
-  
   .main-nav {
-    margin-right: 135px;
+    margin-right: 70px;
   }
+  
+  .first-section > div > p {
+    font-size: 20px !important;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+  }
+  
+  .home-pic {
+    /* float: right; */
+    position: relative;
+    left: 500px;
+    bottom: 10px;
+  }
+  
+ 
 }
