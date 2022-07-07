@@ -800,9 +800,175 @@ form button {
   border-radius: 30px;
 }
 
-@media (min-width: 900px) and (max-width: 1024px) {
+@media (min-width: 950px) and (max-width: 1024px) {
   .main-nav {
     margin-right: 70px;
+  }
+
+  .nav-item {
+    /* background-color: #001d6e94; */
+  }
+
+  .first-section > div > p {
+    font-size: 20px !important;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+  }
+
+  .home-pic {
+    position: relative;
+    left: 500px;
+    bottom: 10px;
+  }
+
+  .contain {
+    text-align: center;
+    padding-bottom: 30px !important;
+  }
+
+  .second-section > h4 {
+    color: #001d6e;
+    font-weight: 700;
+  }
+
+  .underline {
+    width: 40px;
+    height: 7px;
+    margin-left: 475px;
+  }
+
+  .product-info {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    bottom: 198px;
+  }
+
+  .button-kernel {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .product-info2 {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    left: 252px;
+    bottom: 385px;
+  }
+
+  .button-oil {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .product-info3 {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    left: 510px;
+    bottom: 570px;
+  }
+
+  .button-s {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .product-info4 {
+    height: 190px;
+    width: 240px;
+    position: relative;
+    left: 760px;
+    bottom: 759px;
+  }
+
+  .button-w {
+    position: relative !important;
+    top: -5px !important;
+    left: 25px !important;
+  }
+
+  .my-container {
+    margin: 30px 50px 20px 90px;
+    padding: 20px 30px 40px;
+  }
+
+  .container__text {
+    margin-top: 150px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .item-info {
+    font-size: 30px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .palm-button {
+    margin-left: 20px !important;
+  }
+
+  input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .screen {
+    margin-bottom: 230px;
+  }
+
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+
+  .app-title {
+    font-size: 30px;
+  }
+
+  .app-contact {
+    font-size: 14px;
+  }
+
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .app-form-control {
+    font-size: 20px;
+  }
+
+  .app-form-button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1024px) {
+  .main-nav {
+    margin-right: 70px;
+  }
+
+  .nav-item {
+    /* background-color: #001d6e94; */
   }
 
   .first-section > div > p {
@@ -1889,7 +2055,7 @@ form button {
   }
 }
 
-@media (min-width: 550px) and (max-width: 610px) {
+@media (min-width: 500px) and (max-width: 549px) {
   .main-nav {
     margin-right: 0px;
   }
