@@ -86,6 +86,13 @@
           placeholder="phone number"
           required
         />
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="Subject"
+          required
+        />
         <textarea
           name="message"
           id="message"
@@ -101,6 +108,7 @@
       let name = document.getElementById("name");
       let email = document.getElementById("email");
       let phone = document.getElementById("phone");
+      let subject = document.getElementById("subject");
       let message = document.getElementById("message");
 
       contactform.addEventListener("submit", (e) => {
@@ -111,25 +119,28 @@
           name: name.value,
           email: email.value,
           phone: phone.value,
+          subject: subject.value,
           message: message.value,
         };
 
         // console.log(formData);
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", "/");
+        xhr.open("POST", "/contact-us");
         xhr.setRequestHeader("content-type", "application/json");
         xhr.onload = function () {
           console.log(xhr.responseText);
           if (xhr.responseText == "success") {
-            alert("email sentx");
+            alert("email sent");
             name.value = "";
             email.value = "";
             phone.value = "";
+            subject.value = "";
             message.value = "";
           } else {
-            alert("something went wrong")
+            alert("something went wrong");
           }
         };
+        xhr.send(JSON.stringify(formData));
       });
     </script>
 
