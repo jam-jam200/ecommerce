@@ -134,8 +134,6 @@ body {
   font-size: 12px;
 }
 
-body,
-button,
 input {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -899,49 +897,72 @@ form button {
   }
 
   .my-container {
-    background-color: #ffffff;
-    margin: 30px 50px 20px 180px;
-    border: 2px solid #92b4ec;
-    /* justify-content: center; */
-    padding: 20px 40px 40px;
-    max-width: 950px;
-    max-height: 500px;
-    display: flex;
+    margin: 30px 50px 20px 90px;
+    padding: 20px 30px 40px;
   }
-  .container__image {
-    background-color: #92b4ec;
-    border-radius: 10px;
-    margin: 20px 100px 0 0;
-    width: 500px;
-    -o-object-fit: contain;
-    object-fit: contain;
-    /* align-self: flex-start; */
-  }
+  
   .container__text {
     margin-top: 150px;
-    flex: 1 1 auto;
-    text-align: center;
   }
 
   .title {
-    color: #001d6e;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 35px;
   }
 
   .subtitle {
-    font-size: 13px;
-    font-weight: 600;
-    color: #001d6e;
+    font-size: 20px;
   }
 
   .item-info {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: #001d6e;
   }
 
-  .naira {
-    color: #001d6e !important;
+  .palm-button {
+    margin-left: 20px !important;
   }
+
+  input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    margin-bottom: 230px;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .app-title {
+    font-size: 30px;
+  }
+  
+  .app-contact {
+    font-size: 14px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    font-size: 20px;
+  }
+  
+  .app-form-button {
+    font-size: 20px;
+  }
+  
+  
 }
