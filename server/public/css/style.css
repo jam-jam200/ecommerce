@@ -2077,7 +2077,7 @@ form button {
   .first-section > div > p {
     font-size: 30px !important;
     position: absolute;
-    top: 150px;
+    top: 130px;
     left: 30px;
   }
 
@@ -2095,12 +2095,12 @@ form button {
   }
 
   .underline {
-    margin-left: 269px;
+    margin-left: 237px;
   }
 
   .product-info {
     height: 120px;
-    width: 139px;
+    width: 126px;
     position: relative;
     bottom: 140px;
   }
@@ -2110,18 +2110,29 @@ form button {
   }
 
   .button-kernel {
+    text-align: center;
     font-size: 13px;
     font-weight: 600;
     position: relative !important;
     top: -8px !important;
-    left: -2px !important;
+    left: -5px !important;
+    min-width: 110px;
+  }
+
+  .text-k {
+    /* padding-right: 20px !important; */
+  }
+
+
+  .button-kernel span {
+    width: 127px;
   }
 
   .product-info2 {
     height: 120px;
-    width: 139px;
+    width: 126px;
     position: relative;
-    left: 146px;
+    left: 130px;
     bottom: 260px;
   }
 
@@ -2135,14 +2146,20 @@ form button {
     left: -2px !important;
     font-size: 13px;
     font-weight: 600;
+    min-width: 100px;
+   
+  }
+
+  .button-oil span {
+    width: 127px;
   }
 
   .product-info3 {
     height: 120px;
-    width: 139px;
+    width: 126px;
     position: relative;
-    left: 292px;
-    bottom: 383px;
+    left: 260px;
+    bottom: 380px;
   }
 
   .product-info3 p {
@@ -2155,13 +2172,18 @@ form button {
     left: -2px !important;
     font-size: 13px;
     font-weight: 600;
+    min-width: 100px;
+  }
+
+  .button-s span {
+    width: 127px;
   }
 
   .product-info4 {
     height: 120px;
-    width: 139px;
+    width: 126px;
     position: relative;
-    left: 438px;
+    left: 392px;
     bottom: 502px;
   }
 
@@ -2175,6 +2197,11 @@ form button {
     left: -2px !important;
     font-size: 13px;
     font-weight: 600;
+    min-width: 100px;
+  }
+
+  .button-w span {
+    width: 127px;
   }
 
   .my-container {
@@ -2184,12 +2211,478 @@ form button {
 
   .container__image {
     margin: 20px 20px 0 0;
-    width: 200px;
+    width: 170px;
     /* align-self: flex-start; */
   }
 
   .container__text {
-    margin-top: 80px;
+    margin-top: 60px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .item-info {
+    font-size: 25px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .palm-button {
+    margin-left: 20px !important;
+  }
+  .cake-button {
+    margin-left: 20px !important;
+  }
+  .sludge-button {
+    margin-left: 20px !important;
+  }
+  .wet-button {
+    margin-left: 20px !important;
+  }
+
+  input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .screen {
+    margin-bottom: 230px;
+  }
+
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+
+  .app-title {
+    font-size: 25px;
+  }
+
+  .app-contact {
+    font-size: 14px;
+  }
+
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .app-form-control {
+    font-size: 15px;
+  }
+
+  .app-form-button {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 499px) {
+  .main-nav {
+    margin-right: 0px;
+  }
+
+  .nav-item {
+    background-color: #001d6e94;
+  }
+
+  .first-section > div > p {
+    font-size: 30px !important;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+  }
+
+  .home-pic {
+    display: none;
+  }
+
+  .button-64 {
+    height: 64px;
+    position: relative !important;
+    top: 290px !important;
+    left: 16px !important;
+    font-size: 28px;
+    min-width: 196px;
+  }
+
+  .underline {
+    margin-left: 208px;
+  }
+
+  .second-section {
+    height: 400px;
+  }
+
+  .product-info {
+    height: 90px;
+    width: 110px;
+    position: relative;
+    bottom: 120px;
+  }
+
+  .product-info p {
+    font-size: 12px !important;
+  }
+
+  .button-kernel {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-kernel span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .product-info2 {
+    height: 70px;
+    width: 110px;
+    position: relative;
+    left: 116px;
+    bottom: 210px;
+  }
+
+  .product-info2 p {
+    font-size: 12px !important;
+  }
+
+  .button-oil {
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-oil span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .product-info3 {
+    height: 70px;
+    width: 110px;
+    position: relative;
+    left: 231px;
+    bottom: 280px;
+  }
+
+  .product-info3 p {
+    font-size: 12px !important;
+  }
+
+  .button-s {
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-s span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .product-info4 {
+    height: 90px;
+    width: 110px;
+    position: relative;
+    left: 347px;
+    bottom: 350px;
+  }
+
+  .product-info4 p {
+    font-size: 12px !important;
+  }
+
+  .button-w {
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-w span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .my-container {
+    margin: 30px 50px 20px 57px;
+    padding: 20px 30px 40px;
+  }
+
+  .container__image {
+    margin: 20px 20px 0 0;
+    width: 150px;
+    /* align-self: flex-start; */
+  }
+
+  .container__text {
+    margin-top: 60px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .item-info {
+    font-size: 25px;
+    font-weight: 600;
+    color: #001d6e;
+  }
+
+  .palm-button {
+    margin-left: 20px !important;
+  }
+  .cake-button {
+    margin-left: 20px !important;
+  }
+  .sludge-button {
+    margin-left: 20px !important;
+  }
+  .wet-button {
+    margin-left: 20px !important;
+  }
+
+  input {
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .screen {
+    margin-bottom: 230px;
+  }
+
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+
+  .app-title {
+    font-size: 25px;
+  }
+
+  .app-contact {
+    font-size: 14px;
+  }
+
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+
+  .app-form-control {
+    font-size: 15px;
+  }
+
+  .app-form-button {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 449px) {
+  .main-nav {
+    margin-right: 0px;
+  }
+
+  .nav-item {
+    background-color: #001d6e94;
+  }
+
+  .first-section > div > p {
+    font-size: 30px !important;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+  }
+
+  .home-pic {
+    display: none;
+  }
+
+  .button-64 {
+    height: 64px;
+    position: relative !important;
+    top: 300px !important;
+    left: 16px !important;
+    font-size: 28px;
+    min-width: 196px;
+  }
+
+  .underline {
+    margin-left: 177px;
+  }
+
+  .second-section {
+    height: 400px;
+  }
+
+  .product-info {
+    height: 90px;
+    width: 110px;
+    position: relative;
+    bottom: 120px;
+  }
+
+  .product-info p {
+    font-size: 12px !important;
+  }
+
+  .button-kernel {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-kernel span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .product-info2 {
+    height: 70px;
+    width: 110px;
+    position: relative;
+    left: 116px;
+    bottom: 210px;
+  }
+
+  .product-info2 p {
+    font-size: 12px !important;
+  }
+
+  .button-oil {
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-oil span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .product-info3 {
+    height: 70px;
+    width: 110px;
+    position: relative;
+    left: 231px;
+    bottom: 280px;
+  }
+
+  .product-info3 p {
+    font-size: 12px !important;
+  }
+
+  .button-s {
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-s span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .product-info4 {
+    height: 90px;
+    width: 110px;
+    position: relative;
+    left: 347px;
+    bottom: 350px;
+  }
+
+  .product-info4 p {
+    font-size: 12px !important;
+  }
+
+  .button-w {
+    position: relative !important;
+    top: -15px !important;
+    left: -1px !important;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 100px;
+    max-height: 70px;
+    height: 45px;
+  }
+
+  .button-w span {
+    width: 115px;
+    padding: 14px 10px;
+  }
+
+  .my-container {
+    margin: 30px 50px 20px 57px;
+    padding: 20px 30px 40px;
+  }
+
+  .container__image {
+    margin: 20px 20px 0 0;
+    width: 150px;
+    /* align-self: flex-start; */
+  }
+
+  .container__text {
+    margin-top: 60px;
   }
 
   .title {
